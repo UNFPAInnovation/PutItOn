@@ -1,0 +1,13 @@
+{
+  "name": "putiton",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "crypto": "0.0.3",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.4.1",
+    "morgan": "^1.6.1",
+    "orientjs": "^2.1.0"
+  }
+}

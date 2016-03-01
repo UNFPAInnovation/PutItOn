@@ -1,0 +1,11 @@
+<ion-view title="Quiz question">
+    <ion-content overflow-scroll="true" padding="'true'" class="has-header">
+        <div>
+            <h4>{{ui.questionText}} ?</h4>
+        </div>
+        <div class="spacer" style="width: 279px; height: 40px;"></div>
+      <ion-item collection-repeat="answer in ui.questionAnswers" ng-style="{'height':'auto'}">
+        <a ng-click="answerQuestion(answer)" href="#" class="button button-stable button-block  button-full">{{answer.text}}</a>
+      </ion-item>
+    </ion-content>
+</ion-view>

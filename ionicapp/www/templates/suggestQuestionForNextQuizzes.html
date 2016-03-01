@@ -1,0 +1,15 @@
+<ion-view title="Suggest question for next quizzes">
+    <ion-content overflow-scroll="true" padding="'true'" class="has-header">
+        <div>
+            <p>
+                Note! Your question will be reviewed and if it is interesting it will appear in the next quizzes. If you have a personal question please send it to www.somehelp.org
+            </p>
+        </div>
+        <form class="list">
+            <label class="item item-input">
+                <span class="input-label">Question</span><textarea placeholder=""> </textarea>
+            </label>
+        </form>
+        <button ng-click="sendQuestion()" class="button button-stable button-block ">Send</button>
+    </ion-content>
+</ion-view>

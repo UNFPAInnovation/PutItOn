@@ -1,0 +1,5 @@
+nodeapp/node_modules
+.idea
+db/orientdb-community-2.1.5
+db/orientdb-community-2.1.11
+db/nodejs/node_modules

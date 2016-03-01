@@ -1,0 +1,27 @@
+<ion-view title="Sign up">
+    <ion-scroll overflow-scroll="true" padding="'true'" class="has-header">
+        <div class="spacer" style="width: 300px; height: 64px;"></div>
+        <form class="list">
+            <ion-list>
+                <label class="item item-input" name="phoneNumber">
+                    <span class="input-label">Nickname</span>
+                    <input type="text" placeholder="nickanme" ng-model="ui.phoneNumber">
+                </label>
+                <label class="item item-input" name="year">
+                    <span class="input-label">Born in</span>
+                    <input type="date" placeholder="1988">
+                </label>
+                <ion-radio name="gender">Gender</ion-radio>
+                <label class="item item-input" name="country">
+                    <span class="input-label">Country</span>
+                    <input type="text" placeholder="Moldova">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Password</span>
+                    <input type="password" placeholder="******" ng-model="ui.password">
+                </label>
+            </ion-list>
+            <a ng-click="signUp()" href="#" class="button button-positive button-block button-full">Sign up</a>
+        </form>
+    </ion-scroll>
+</ion-view>

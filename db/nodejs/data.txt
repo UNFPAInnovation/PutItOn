@@ -1,0 +1,68 @@
+
+
+        {
+                    comment : 'Q1',
+                    textQuestion:'Care este vîrsta potrivită pentru a începe viața sexuală',
+                    questionCommentOnCorrectAnswer:'Nu există o vîrstă potrivită, este bine să începi viața sexuală, atunci cînd: ești pregătit fizic și moral, știi cum să folosești corect prezervativul și ai un partener stabil',
+                    questionCommentOnWrongAnswer:'Nu există o vîrstă potrivită, este bine să începi viața sexuală, atunci cînd: ești pregătit fizic și moral, știi cum să folosești corect prezervativul și ai un partener stabil',
+                    answers : [
+                        {
+                            textAnswer : '15 ani',
+                            isTrueAnswer: false
+                        },
+                        {
+                            textAnswer : '18 ani',
+                            isTrueAnswer: false
+                        },
+                        {
+                            textAnswer : '20 ani',
+                            isTrueAnswer: false
+                        },
+                        {
+                            textAnswer : 'Nu este o vîrstă',
+                            isTrueAnswer: true
+                        }
+                    ]
+                }, {
+                    comment : 'Q2',
+                    textQuestion:'Ce trebuie să fac dacă vreau să fac sex',
+                    questionCommentOnCorrectAnswer:'Da, asigură-te că ești informat despre metodele de contracepție și tu și partenerul tău/partenera ta',
+                    questionCommentOnWrongAnswer:'Nu este necesar, asigură-te că ești informat despre metodele de contracepție și tu și partenerul tău/partenera ta',
+                    answers : [
+                        {
+                            textAnswer : 'Întreb părinții',
+                            isTrueAnswer: false
+                        },
+                        {
+                            textAnswer : 'Merg la medic',
+                            isTrueAnswer: false
+                        },
+                        {
+                            textAnswer : 'Mă informez despre metode de contracepție',
+                            isTrueAnswer: true
+                        }
+                    ]
+                }, {
+                    comment : 'Q3',
+                    textQuestion:'Ce îi face pe tineri mai pregătiți pentru relațiile sexuale',
+                    questionCommentOnCorrectAnswer:'Corect, cunoașterea informației corecte despre prevenirea infecțiilor cu transmitere sexuală și a sarcinii nedorite te face mai pregătit',
+                    questionCommentOnWrongAnswer:'Greșit, doar informația corectă despre prevenirea infecțiilor cu transmitere sexuală și a sarcinii nedorite te face mai pregătit',
+                    answers : [
+                        {
+                            textAnswer : 'Vîrsta',
+                            isTrueAnswer: false
+                        },
+                        {
+                            textAnswer : 'Experiența sexuală',
+                            isTrueAnswer: false
+                        },
+                        {
+                            textAnswer : 'Numărul de parteneri',
+                            isTrueAnswer: false
+                        },
+                        {
+                            textAnswer : 'Cunoașterea informației corecte despre sex',
+                            isTrueAnswer: true
+                        }
+                    ]
+                }

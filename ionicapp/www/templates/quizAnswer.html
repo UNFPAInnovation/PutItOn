@@ -1,0 +1,20 @@
+<ion-view title="Quiz answer">
+    <ion-content overflow-scroll="true" padding="'true'" class="has-header">
+        <div class="spacer" style="width: 300px; height: 28px;"></div>
+        <div>
+          <h3 ng-show="ui.userHasAnsweredCorrectly">Correct!</h3>
+          <h3 class="wrong" ng-hide="ui.userHasAnsweredCorrectly">Wrong!</h3>
+        </div>
+        <button
+          class="button button-balanced button-block button-full">{{ui.correctAnswer.text}}</button>
+        <div class="spacer" style="width: 300px; height: 24px;"></div>
+        <div>
+            <h4 ng-show="ui.userHasAnsweredCorrectly">{{ui.questionCommentOnCorrectAnswer}}</h4>
+            <h4 ng-hide="ui.userHasAnsweredCorrectly">{{ui.questionCommentOnWrongAnswer}}</h4>
+        </div>
+        <div class="spacer" style="width: 300px; height: 23px;"></div>
+        <a nav-direction="forward" ng-click="nextQuestionOrAnswers()" href="#"
+           class="button button-light button-block button-calm icon-right
+           ion-android-arrow-forward button-full">{{ui.nextPage}}</a>
+    </ion-content>
+</ion-view>
